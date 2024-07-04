@@ -82,25 +82,25 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
 
     <p>
         <figure>
-            <img src="./images/customCNN_losses_2024_01_11_11_53_.png" width="440" height="320">
-            <center><figcaption>Custom CNN Losses</figcaption></center>
+            <img src="./images/customCNN_losses_2024_01_11_11_53_.png">
+            <figcaption>Custom CNN Losses</figcaption>
         </figure>
         <figure>
-            <img src="./images/resnet50_losses_2024_01_11_14_38_.png" width="440" height="320">
-            <center><figcaption>ResNet50 Losses</figcaption></center>
+            <img src="./images/resnet50_losses_2024_01_11_14_38_.png">
+            <figcaption>ResNet50 Losses</figcaption>
         </figure>
         <figure>
-            <img src="./images/resnet152_losses_2024_01_11_15_14_.png" width="440" height="320">
-            <center><figcaption>ResNet152 Losses</figcaption></center>
+            <img src="./images/resnet152_losses_2024_01_11_15_14_.png">
+            <figcaption>ResNet152 Losses</figcaption>
         </figure>
         <figure>
-            <img src="./images/vgg16_losses_2024_01_11_16_08_.png" width="440" height="320">
-            <center><figcaption>VGG16 Losses</figcaption></center>
+            <img src="./images/vgg16_losses_2024_01_11_16_08_.png">
+            <figcaption>VGG16 Losses</figcaption>
         </figure>
         <figure>
-            <img src="./images/vgg19_losses_2024_01_11_17_09_.png" width="440" height="320">
-            <center><figcaption>VGG19 Losses</figcaption></center>
-        </figure></center>
+            <img src="./images/vgg19_losses_2024_01_11_17_09_.png">
+            <figcaption>VGG19 Losses</figcaption>
+        </figure>
     </p>
 
 - `VGG16` was selected as the final model since it was the one leading to the best performance. The model's detailed architecture is presented in file [VGG16 final architecture](./open_project/VGG16_final3/architecture_2024_01_11_22_13.txt). Its `confusion matrix` on the test set is presented here:
