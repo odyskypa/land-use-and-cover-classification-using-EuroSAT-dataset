@@ -80,28 +80,20 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
     ![EuroSAT Class Distribution](./images/pasture.jpg)
 - The comparison of training and validation losses for `CustomCNN, VGG16, VGG19, ResNet50, ResNet152` models on the EuroSAT dataset is included here:
 
-    <p>
-        <figure>
-            <img src="./images/customCNN_losses_2024_01_11_11_53_.png">
-            <center><figcaption>Custom CNN Losses</figcaption></center>
-        </figure>
-        <figure>
-            <img src="./images/resnet50_losses_2024_01_11_14_38_.png">
-            <center><figcaption>ResNet50 Losses</figcaption></center>
-        </figure>
-        <figure>
-            <img src="./images/resnet152_losses_2024_01_11_15_14_.png">
-            <center><figcaption>ResNet152 Losses</figcaption></center>
-        </figure>
-        <figure>
-            <img src="./images/vgg16_losses_2024_01_11_16_08_.png">
-            <center><figcaption>VGG16 Losses</figcaption></center>
-        </figure>
-        <figure>
-            <img src="./images/vgg19_losses_2024_01_11_17_09_.png">
-            <center><figcaption>VGG19 Losses</figcaption></center>
-        </figure>
-    </p>
+    - Custom CNN Losses
+      ![Custom CNN Losses](./images/customCNN_losses_2024_01_11_11_53_.png)
+
+    - ResNet50 Losses
+      ![ResNet50 Losses](./images/resnet50_losses_2024_01_11_14_38_.png)
+
+    - ResNet152 Losses
+      ![ResNet152 Losses](./images/resnet152_losses_2024_01_11_15_14_.png)
+
+    - VGG16 Losses
+      ![VGG16 Losses](./images/vgg16_losses_2024_01_11_16_08_.png)
+
+    - VGG19 Losses
+      ![VGG19 Losses](./images/vgg19_losses_2024_01_11_17_09_.png)
 
 - `VGG16` was selected as the final model since it was the one leading to the best performance. The model's detailed architecture is presented in file [VGG16 final architecture](./open_project/VGG16_final3/architecture_2024_01_11_22_13.txt). Its `confusion matrix` on the test set is presented here:
 
@@ -109,39 +101,25 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
 
 - The `t-SNE visualizations` of the final model's activations across the dense layers is illustrated here:
 
-<p>
-  <center><figure>
-    <img src="./images/final_t_SNE_fc1_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption>Final t-SNE Plot for FC1</figcaption>
-  </figure>
-  <figure>
-    <img src="./images/final_t_SNE_fc2_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption>Final t-SNE Plot for FC2</figcaption>
-  </figure>
-  <figure>
-    <img src="./images/final_t_SNE_fc3_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption>Final t-SNE Plot for FC3</figcaption>
-  </figure>
-  </center>
-</p>
+    - Final t-SNE Plot for FC1
+        ![Final t-SNE Plot for FC1](./images/final_t_SNE_fc1_2024_01_11_22_13.png)
+        
+    - Final t-SNE Plot for FC2
+    ![Final t-SNE Plot for FC2](./images/final_t_SNE_fc2_2024_01_11_22_13.png)
+    
+    - Final t-SNE Plot for FC3
+    ![Final t-SNE Plot for FC3](./images/final_t_SNE_fc3_2024_01_11_22_13.png)
 
 - Finally, the `top 10` image examples for randomly selected units in each layer of the final model is included below:
 
-<p>
-  <center><figure>
-    <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_1.png" width="440" height="320">
-    <figcaption>VGG16 Top-10 Activations in FC1</figcaption>
-  </figure>
-  <figure>
-    <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_2.png" width="440" height="320">
-    <figcaption>VGG16 Top-10 Activations in FC2</figcaption>
-  </figure>
-  <figure>
-    <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_3.png" width="320" height="240">
-    <figcaption>VGG16 Top-10 Activations in FC3</figcaption>
-  </figure>
-  </center>
-</p>
+    - VGG16 Top-10 Activations in FC1
+        ![VGG16 Top-10 Activations in FC1](./images/VGG16_top_k_activations_vgg16_dense_layer_1.png)
+        
+    - VGG16 Top-10 Activations in FC2
+    ![VGG16 Top-10 Activations in FC2](./images/VGG16_top_k_activations_vgg16_dense_layer_2.png)
+    
+    - VGG16 Top-10 Activations in FC3
+    ![VGG16 Top-10 Activations in FC3](./images/VGG16_top_k_activations_vgg16_dense_layer_3.png)
 
 **ALL THE DETAILS OF THE IMPLEMENTATION AND INTERPRETATION OF RESULTS CAN BE FOUND IN [THE FINAL REPORT](./docs/Deep_Learning_Tasks_and_Land_Use_Land_Cover_Classification_Using_EuroSAT_Dataset.pdf), THE [SCRIPTS FOR EXPERIMENTS](./notebooks/) AND THE [FINAL PROJECT CODE](./open_project/)**.
 
