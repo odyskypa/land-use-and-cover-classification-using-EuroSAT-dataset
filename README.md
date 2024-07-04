@@ -83,23 +83,23 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
     <p>
         <figure>
             <img src="./images/customCNN_losses_2024_01_11_11_53_.png">
-            <figcaption style="text-align: center;">Custom CNN Losses</figcaption>
+            <center><figcaption>Custom CNN Losses</figcaption></center>
         </figure>
         <figure>
             <img src="./images/resnet50_losses_2024_01_11_14_38_.png">
-            <figcaption style="text-align: center;">ResNet50 Losses</figcaption>
+            <center><figcaption>ResNet50 Losses</figcaption></center>
         </figure>
         <figure>
             <img src="./images/resnet152_losses_2024_01_11_15_14_.png">
-            <figcaption style="text-align: center;">ResNet152 Losses</figcaption>
+            <center><figcaption>ResNet152 Losses</figcaption></center>
         </figure>
         <figure>
             <img src="./images/vgg16_losses_2024_01_11_16_08_.png">
-            <figcaption style="text-align: center;">VGG16 Losses</figcaption>
+            <center><figcaption>VGG16 Losses</figcaption></center>
         </figure>
         <figure>
             <img src="./images/vgg19_losses_2024_01_11_17_09_.png">
-            <figcaption style="text-align: center;">VGG19 Losses</figcaption>
+            <center><figcaption>VGG19 Losses</figcaption></center>
         </figure>
     </p>
 
@@ -112,15 +112,15 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
 <p>
   <center><figure>
     <img src="./images/final_t_SNE_fc1_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption style="text-align: center;">Final t-SNE Plot for FC1</figcaption>
+    <figcaption>Final t-SNE Plot for FC1</figcaption>
   </figure>
   <figure>
     <img src="./images/final_t_SNE_fc2_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption style="text-align: center;">Final t-SNE Plot for FC2</figcaption>
+    <figcaption>Final t-SNE Plot for FC2</figcaption>
   </figure>
   <figure>
     <img src="./images/final_t_SNE_fc3_2024_01_11_22_13.png" width="420" height="300">
-    <figcaption style="text-align: center;">Final t-SNE Plot for FC3</figcaption>
+    <figcaption>Final t-SNE Plot for FC3</figcaption>
   </figure>
   </center>
 </p>
@@ -130,15 +130,15 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
 <p>
   <center><figure>
     <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_1.png" width="440" height="320">
-    <figcaption style="text-align: center;">VGG16 Top-10 Activations in FC1</figcaption>
+    <figcaption>VGG16 Top-10 Activations in FC1</figcaption>
   </figure>
   <figure>
     <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_2.png" width="440" height="320">
-    <figcaption style="text-align: center;">VGG16 Top-10 Activations in FC2</figcaption>
+    <figcaption>VGG16 Top-10 Activations in FC2</figcaption>
   </figure>
   <figure>
     <img src="./images/VGG16_top_k_activations_vgg16_dense_layer_3.png" width="320" height="240">
-    <figcaption style="text-align: center;">VGG16 Top-10 Activations in FC3</figcaption>
+    <figcaption>VGG16 Top-10 Activations in FC3</figcaption>
   </figure>
   </center>
 </p>
