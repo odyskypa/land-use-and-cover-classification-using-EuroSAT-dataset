@@ -1,0 +1,87 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+CustomCNN(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu1): LeakyReLU(negative_slope=0.01)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn2): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu2): LeakyReLU(negative_slope=0.01)
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout1): Identity()
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn3): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu3): LeakyReLU(negative_slope=0.01)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu4): LeakyReLU(negative_slope=0.01)
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout2): Identity()
+  (conv5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn5): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu5): LeakyReLU(negative_slope=0.01)
+  (conv6): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn6): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu6): LeakyReLU(negative_slope=0.01)
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout3): Identity()
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (fc1): Linear(in_features=2048, out_features=128, bias=True)
+  (relu7): LeakyReLU(negative_slope=0.01)
+  (dropout4): Identity()
+  (fc2): Linear(in_features=128, out_features=10, bias=True)
+)
+Total trainable parameters in the model: 551466
+Device: cuda
+Train Epoch: 1 [0/100000 (0%)]	Loss: 2.324724
+Train Epoch: 1 [51200/100000 (51%)]	Loss: 1.230929
+
+Test set: Average loss: 0.9563, Accuracy: 6694/10000 (67%)
+
+Train Epoch: 2 [0/100000 (0%)]	Loss: 0.865179
+Train Epoch: 2 [51200/100000 (51%)]	Loss: 0.692559
+
+Test set: Average loss: 0.8958, Accuracy: 6843/10000 (68%)
+
+Train Epoch: 3 [0/100000 (0%)]	Loss: 0.723971
+Train Epoch: 3 [51200/100000 (51%)]	Loss: 0.538410
+
+Test set: Average loss: 0.6201, Accuracy: 7823/10000 (78%)
+
+Train Epoch: 4 [0/100000 (0%)]	Loss: 0.497312
+Train Epoch: 4 [51200/100000 (51%)]	Loss: 0.482971
+
+Test set: Average loss: 0.5722, Accuracy: 8017/10000 (80%)
+
+Train Epoch: 5 [0/100000 (0%)]	Loss: 0.423253
+Train Epoch: 5 [51200/100000 (51%)]	Loss: 0.539480
+
+Test set: Average loss: 0.4927, Accuracy: 8296/10000 (83%)
+
+Train Epoch: 6 [0/100000 (0%)]	Loss: 0.378631
+Train Epoch: 6 [51200/100000 (51%)]	Loss: 0.440335
+
+Test set: Average loss: 0.5500, Accuracy: 8160/10000 (82%)
+
+Train Epoch: 7 [0/100000 (0%)]	Loss: 0.367350
+Train Epoch: 7 [51200/100000 (51%)]	Loss: 0.381226
+
+Test set: Average loss: 0.5241, Accuracy: 8246/10000 (82%)
+
+Train Epoch: 8 [0/100000 (0%)]	Loss: 0.323141
+Train Epoch: 8 [51200/100000 (51%)]	Loss: 0.362049
+
+Test set: Average loss: 0.5521, Accuracy: 8201/10000 (82%)
+
+Train Epoch: 9 [0/100000 (0%)]	Loss: 0.315254
+Train Epoch: 9 [51200/100000 (51%)]	Loss: 0.311262
+
+Test set: Average loss: 0.4684, Accuracy: 8466/10000 (85%)
+
+Train Epoch: 10 [0/100000 (0%)]	Loss: 0.261708
+Train Epoch: 10 [51200/100000 (51%)]	Loss: 0.246815
+
+Test set: Average loss: 0.4871, Accuracy: 8436/10000 (84%)
+
+Total Training Time: 6m 11s

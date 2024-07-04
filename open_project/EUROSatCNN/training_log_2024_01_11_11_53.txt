@@ -1,0 +1,99 @@
+Train Epoch: 1 [0/18900 (0%)]	Loss: 2.363492
+Train Epoch: 1 [5120/18900 (27%)]	Loss: 2.040092
+Train Epoch: 1 [10240/18900 (54%)]	Loss: 1.772091
+Train Epoch: 1 [15360/18900 (81%)]	Loss: 1.579187
+
+Validation set: Average loss: 1.5234, Accuracy: 1629/4050 (40%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 2 [0/18900 (0%)]	Loss: 1.630055
+Train Epoch: 2 [5120/18900 (27%)]	Loss: 1.393853
+Train Epoch: 2 [10240/18900 (54%)]	Loss: 1.356523
+Train Epoch: 2 [15360/18900 (81%)]	Loss: 1.285904
+
+Validation set: Average loss: 1.4122, Accuracy: 1948/4050 (48%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 3 [0/18900 (0%)]	Loss: 1.382067
+Train Epoch: 3 [5120/18900 (27%)]	Loss: 1.280662
+Train Epoch: 3 [10240/18900 (54%)]	Loss: 1.112928
+Train Epoch: 3 [15360/18900 (81%)]	Loss: 1.041777
+
+Validation set: Average loss: 1.1568, Accuracy: 2600/4050 (64%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 4 [0/18900 (0%)]	Loss: 0.982021
+Train Epoch: 4 [5120/18900 (27%)]	Loss: 1.048375
+Train Epoch: 4 [10240/18900 (54%)]	Loss: 1.128876
+Train Epoch: 4 [15360/18900 (81%)]	Loss: 1.059989
+
+Validation set: Average loss: 1.1355, Accuracy: 2504/4050 (62%)
+Train Epoch: 5 [0/18900 (0%)]	Loss: 0.938733
+Train Epoch: 5 [5120/18900 (27%)]	Loss: 0.986133
+Train Epoch: 5 [10240/18900 (54%)]	Loss: 0.869552
+Train Epoch: 5 [15360/18900 (81%)]	Loss: 0.891850
+
+Validation set: Average loss: 0.8231, Accuracy: 2798/4050 (69%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 6 [0/18900 (0%)]	Loss: 0.861691
+Train Epoch: 6 [5120/18900 (27%)]	Loss: 0.934121
+Train Epoch: 6 [10240/18900 (54%)]	Loss: 0.863512
+Train Epoch: 6 [15360/18900 (81%)]	Loss: 0.859617
+
+Validation set: Average loss: 0.7480, Accuracy: 2986/4050 (74%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 7 [0/18900 (0%)]	Loss: 0.739161
+Train Epoch: 7 [5120/18900 (27%)]	Loss: 0.695641
+Train Epoch: 7 [10240/18900 (54%)]	Loss: 0.819854
+Train Epoch: 7 [15360/18900 (81%)]	Loss: 0.779410
+
+Validation set: Average loss: 0.8378, Accuracy: 2908/4050 (72%)
+Train Epoch: 8 [0/18900 (0%)]	Loss: 0.762234
+Train Epoch: 8 [5120/18900 (27%)]	Loss: 0.838491
+Train Epoch: 8 [10240/18900 (54%)]	Loss: 0.738445
+Train Epoch: 8 [15360/18900 (81%)]	Loss: 0.847566
+
+Validation set: Average loss: 1.3476, Accuracy: 2375/4050 (59%)
+Train Epoch: 9 [0/18900 (0%)]	Loss: 0.740026
+Train Epoch: 9 [5120/18900 (27%)]	Loss: 0.756771
+Train Epoch: 9 [10240/18900 (54%)]	Loss: 0.766634
+Train Epoch: 9 [15360/18900 (81%)]	Loss: 0.801260
+
+Validation set: Average loss: 1.1815, Accuracy: 2634/4050 (65%)
+Train Epoch: 10 [0/18900 (0%)]	Loss: 0.800916
+Train Epoch: 10 [5120/18900 (27%)]	Loss: 0.691532
+Train Epoch: 10 [10240/18900 (54%)]	Loss: 0.649655
+Train Epoch: 10 [15360/18900 (81%)]	Loss: 0.747001
+
+Validation set: Average loss: 0.8297, Accuracy: 2934/4050 (72%)
+Train Epoch: 11 [0/18900 (0%)]	Loss: 0.728809
+Train Epoch: 11 [5120/18900 (27%)]	Loss: 0.667924
+Train Epoch: 11 [10240/18900 (54%)]	Loss: 0.666210
+Train Epoch: 11 [15360/18900 (81%)]	Loss: 0.664691
+
+Validation set: Average loss: 0.8770, Accuracy: 2951/4050 (73%)
+Train Epoch: 12 [0/18900 (0%)]	Loss: 0.667564
+Train Epoch: 12 [5120/18900 (27%)]	Loss: 0.717686
+Train Epoch: 12 [10240/18900 (54%)]	Loss: 0.620924
+Train Epoch: 12 [15360/18900 (81%)]	Loss: 0.756161
+
+Validation set: Average loss: 0.6533, Accuracy: 3166/4050 (78%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 13 [0/18900 (0%)]	Loss: 0.673654
+Train Epoch: 13 [5120/18900 (27%)]	Loss: 0.614829
+Train Epoch: 13 [10240/18900 (54%)]	Loss: 0.717441
+Train Epoch: 13 [15360/18900 (81%)]	Loss: 0.746569
+
+Validation set: Average loss: 0.5240, Accuracy: 3340/4050 (82%)
+Checkpoint saved at ../open_project/EUROSatCNN/best_model_2024_01_11_11_53.pth 
+Train Epoch: 14 [0/18900 (0%)]	Loss: 0.633198
+Train Epoch: 14 [5120/18900 (27%)]	Loss: 0.603507
+Train Epoch: 14 [10240/18900 (54%)]	Loss: 0.674298
+Train Epoch: 14 [15360/18900 (81%)]	Loss: 0.625000
+
+Validation set: Average loss: 0.6932, Accuracy: 3103/4050 (77%)
+Train Epoch: 15 [0/18900 (0%)]	Loss: 0.553221
+Train Epoch: 15 [5120/18900 (27%)]	Loss: 0.683195
+Train Epoch: 15 [10240/18900 (54%)]	Loss: 0.624642
+Train Epoch: 15 [15360/18900 (81%)]	Loss: 0.703819
+
+Validation set: Average loss: 1.1299, Accuracy: 2765/4050 (68%)
+Completed training for 15 epochs 
+Total Training Time: 38m 19s 
