@@ -81,24 +81,24 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
 - The comparison of training and validation losses for `CustomCNN, VGG16, VGG19, ResNet50, ResNet152` models on the EuroSAT dataset is included here:
 
     <p>
-        <center><figure>
-            <img src="./images/customCNN_losses_2024_01_11_11_53_.png" width="320" height="160">
+        <figure>
+            <img src="./images/customCNN_losses_2024_01_11_11_53_.png" width="440" height="320">
             <center><figcaption>Custom CNN Losses</figcaption></center>
         </figure>
-        <center><figure>
-            <img src="./images/resnet50_losses_2024_01_11_14_38_.png" width="320" height="160">
+        <figure>
+            <img src="./images/resnet50_losses_2024_01_11_14_38_.png" width="440" height="320">
             <center><figcaption>ResNet50 Losses</figcaption></center>
         </figure>
-        <center><figure>
-            <img src="./images/resnet152_losses_2024_01_11_15_14_.png" width="320" height="160">
+        <figure>
+            <img src="./images/resnet152_losses_2024_01_11_15_14_.png" width="440" height="320">
             <center><figcaption>ResNet152 Losses</figcaption></center>
         </figure>
-        <center><figure>
-            <img src="./images/vgg16_losses_2024_01_11_16_08_.png" width="320" height="160">
+        <figure>
+            <img src="./images/vgg16_losses_2024_01_11_16_08_.png" width="440" height="320">
             <center><figcaption>VGG16 Losses</figcaption></center>
         </figure>
-        <center><figure>
-            <img src="./images/vgg19_losses_2024_01_11_17_09_.png" width="320" height="160">
+        <figure>
+            <img src="./images/vgg19_losses_2024_01_11_17_09_.png" width="440" height="320">
             <center><figcaption>VGG19 Losses</figcaption></center>
         </figure></center>
     </p>
