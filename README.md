@@ -80,7 +80,7 @@ By using the EuroSAT[^2] dataset (A Novel Dataset and Deep Learning Benchmark fo
     ![EuroSAT Class Distribution](./images/pasture.jpg)
 - The comparison of training and validation losses for `CustomCNN, VGG16, VGG19, ResNet50, ResNet152` models on the EuroSAT dataset is included here:
 
-<p>
+<p align="center">
     <center><figure>
         <img src="./images/customCNN_losses_2024_01_11_11_53_.png" width="320" height="160">
         <center><figcaption>Custom CNN Losses</figcaption></center>
